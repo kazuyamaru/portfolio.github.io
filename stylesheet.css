@@ -71,6 +71,10 @@ header{
 	position: fixed;
 }
 
+.header {
+	width: 100%;
+}
+
 .header i{
 	display: none;
 }
@@ -98,7 +102,7 @@ header{
 
 .gnav-list li{
 	font-size: 30px;
-	padding: 10px 20px;
+	padding: 10px 5%;
 }
 
 /*gnav-list*/
@@ -294,7 +298,7 @@ footer p{
 @media screen and (max-width:780px){
 
 	h1{
-		width: 80%;
+		width: 70%;
 		margin: 50px 0;
 	}
 
