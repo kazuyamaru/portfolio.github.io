@@ -1,0 +1,344 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 950px;
+  height: 100px;
+  margin: 80px 200px;
+}
+
+.logo {
+  float: left;
+  margin-top: 50px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+  color: black;
+}
+
+#wrap {
+  clear: both;
+}
+
+.content {
+  width: 1340px;
+  margin: 0;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+  background-color: black;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+#mainvisual{
+    width: 1300px;
+}
+
+#mainvisual img{
+    width: 1340px;
+    height: 420px;
+}
+
+#about {
+    width: 950px;
+    margin: 0 200px;
+}
+
+h1{
+    margin-top: 90px;
+    text-align: center;
+}
+
+#works {
+    width: 950px;
+    margin: 0 200px;
+    height: 450px;
+}
+
+#works h1{
+    margin-top: 150px;
+}
+
+#works li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+
+#news{
+    clear: both;
+}
+
+#news h1{
+    margin-top: 150px;
+}
+
+#news dl{
+    border-top: solid 1px #c8c8c8;
+    margin: 0 200px;
+}
+
+#news dl dt{
+    float: left;
+    clear: both;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 20px;
+}
+
+#news dd{
+    padding: 20px;
+    border-bottom: solid 1px #c8c8c8;  
+    padding-left: 200px;
+}
+
+#contact h1{
+    margin-top: 150px;
+}
+
+#contact dl{
+    margin: 0 200px;
+}
+
+#contact dl dt{
+    width: 165px;
+    padding: 10px 0;
+    float: left;
+    clear: both;
+}
+
+#contact dd{
+    padding: 10px;
+}
+
+.name{
+    width: 700px;
+    height: 45px;
+}
+
+.e-mail{
+    width: 700px;
+    height: 45px;
+}
+
+.message{
+    width: 700px;
+    height: 155px;
+}
+
+.btn{
+    margin: 0 600px;;
+    width: 200px;
+    height: 55px;
+    color: white;
+    background-color: black;
+    display: block;
+    margin-bottom:125px; 
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+ 
+{
+    body{
+        width: 350px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    
+    image{
+        width: 550px;
+    }
+    
+    header{
+        background-color: chocolate;/*後で消す*/
+        width: 200px;
+        padding-left: 40px;
+        margin-left: 50px;
+        padding-right: 0;
+        margin-right: 50px;
+    }
+    
+    .logo{
+        text-align: center;
+    }
+    
+    .global-nav{
+        background-color: aqua;
+    }
+    
+    .global-nav li{
+        font-size: 15px;
+        float: left;
+    }
+    .content{
+        width: 280px;
+    }
+    
+    #mainvisual{
+        width: 230px;
+    }
+    
+    #mainvisual img{
+        width: 280px;
+    }
+    
+    #about{
+        width: 200px;
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    
+    #works{
+        width: 200px;
+        margin-left: 5px;
+    }
+    
+    #works img{
+        width: 250px;
+    }
+    
+    #news{
+        width: 250px;
+        margin-left: 0;
+        background-color: darkred;/*後で消す*/
+    }
+    
+    #news dl dt{
+        border-bottom: none;
+    }
+    
+    #news dl{
+        background-color: crimson;/*後で消す*/
+        width: 250px;
+        padding: 0;
+        margin-left: 15px;
+        float: none;
+        border-bottom: none;
+    }
+    
+    #news dd{
+        padding: 0;
+        margin-left: 15px;    
+        float: left;
+        margin-top: 0;
+        background-color: seagreen;/*後で消す*/
+    }
+    
+    #news dt{
+        padding: 0;
+        float: left;
+        margin: 0;
+        background-color: dimgrey;/*後で消す*/
+        height: 0px;
+        
+    }
+    
+    #contact{
+        clear: both;
+        width: 280px;
+        margin-left: 0;
+    }
+    
+    #contact dl{
+        background-color: crimson;/*後で消す*/
+        width: 250px;
+        padding: 10px;
+        margin-left: 0;
+        float: none;
+    }
+    
+    #contact dd{
+        padding-right: 20px;
+        margin-left: 0;    
+        float: left;
+        margin-top: 0;
+    }
+    
+    #contact dt{
+        margin-left: 0;
+        padding: 0;
+        float: left;
+        background-color: dimgrey;/*後で消す*/
+        height: 0px;
+        
+    }
+    
+    #contact .name{
+        width: 250px;
+        height: 40px;
+    }
+    
+    #contact .e-mail{
+        width: 250px;
+        height: 40px;
+    }
+    
+    #contact .message{
+        width: 250px;
+        height: 90px;
+    }
+    
+    #contact .btn{
+        float: none;
+        margin-left: 60px;
+    }
+    
+    footer{
+        width: 280px;
+        margin-right: 0;
+    }
+}
+    
