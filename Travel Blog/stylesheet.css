@@ -1,0 +1,409 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    color: #333;
+    font-size: 1rem;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+/*header*/
+
+header{
+  position: fixed;/*合ってる？*/
+  width: 100%;
+	background-color: white;
+	}
+
+header img{
+  width: 145px;
+  height: 35px;
+  padding: 23px 18%;
+}
+
+.header-list {
+  width: 100%;
+  height: 33px;
+  background-color: black;
+
+}
+
+.header-list a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-list ul{
+  padding-left: 18%;
+}
+
+.header-list li{
+  float: left;
+  padding-right: 25px;
+  padding-top: 7px;
+}
+
+/*header*/
+
+/*pickup*/
+
+.pickup{
+	display: inline-block;
+	margin-top: 150px;
+}
+
+.pickup ul{
+	display: flex;
+	margin: 0 15%;
+}
+
+.pickup .img{
+	width: 70%;
+}
+
+.pickup img{
+	width: 120%;
+	height: 90%;
+	padding-left: 18%;
+}
+
+.pickup .sentence{
+	padding-left: 11%;
+	padding-bottom: 10px;
+	width: 90%;
+}
+
+.pickup .read{
+	text-align: center;
+}
+
+.pickup a{
+	 color: black;
+}
+
+/*main*/
+
+.main{
+	display: flex;
+	width: 100%;
+	margin-top: 75px;
+}
+
+.mainbar{
+	width: 60%;
+	padding-left: 18%;
+}
+
+.main1{
+	margin-bottom: 90px;
+}
+
+.main1 h1{
+	padding-bottom: 20px;
+}
+
+.main1 p{
+	padding-bottom: 10px;
+}
+
+.main1 .text{
+	width: 94%;
+	padding: 10px 3%;
+}
+
+.main1 .read{
+	color: black;
+	padding: 0 40%;
+}
+
+.main1 .title{
+	color: black;
+  text-decoration: none;
+}
+
+.main1 img{
+	width: 100%;
+	height: 100%;
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+
+.sidebar{
+	width: 40%;
+	margin-right: 10%;
+}
+
+.name{
+	margin-bottom: 60px;
+}
+
+.name img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 25%;
+	margin-bottom: 20px;
+}
+
+.name h1{
+	padding-left: 27%;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.name p{
+	width: 80%;
+	padding-left: 10%;
+}
+
+.ranking h1{
+	padding-left: 32%;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.ranking img{
+	width: 100%;
+	padding-top: 20px;
+}
+
+.ranking li{
+	width: 80%;
+	padding-left: 10%;
+	padding-bottom: 10px;
+}
+
+.archive h1{
+	padding-left: 35%;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.archive ul{
+	border-top: solid 1px black;
+	margin-left: 10%;
+}
+
+.archive li{
+	border-bottom: solid 1px black;
+	padding: 20px 0;
+}
+
+footer{
+	width: 66%;
+	padding: 0 17%;
+	margin-top: 140px;
+	height: 500px;
+	display: flex;
+	background-color: #f7f7f7;
+}
+
+footer h1{
+	padding-top: 50px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.about{
+	width: 30%;
+	padding-right: 3%;
+}
+
+.about .text{
+	padding: 30px 0;
+}
+
+.about i{
+	color: black;
+}
+
+.about li{
+	padding-bottom: 5px;
+}
+
+.menu{
+	width: 30%;
+	padding-right: 3%;
+}
+
+.menu h1{
+	margin-bottom: 50px;
+}
+
+.menu ul{
+	border-top: solid 1px black;
+}
+
+.menu li{
+	padding: 20px 0;
+	border-bottom: solid 1px black;
+}
+
+.twitter{
+width: 30%;
+}
+
+.twitter a{
+	height: 50%;
+}
+
+@media screen and (max-width:740px){
+	.header-list ul{
+	  padding-left: 5%;
+	}
+
+	.pickup ul{
+		display: block;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.pickup .img {
+		width: 96%;
+		padding: 0 2%;
+	}
+
+ .pickup img{
+	 width: 100%;
+	 padding-left: 0;
+ 	}
+
+ .pickup .sentence{
+	 width: 96%;
+	 padding: 10px 2%;
+	 font-size: 12px;
+ 	}
+
+ .pickup .read{
+	 margin-top: 10px;
+ 	}
+
+ .main{
+	 display: block;
+ 	}
+
+ .mainbar{
+	 width: 96%;
+	 margin: 0 2%;
+	 padding-left: 0;
+	}
+
+	.mainbar img{
+		width: 100%;
+	}
+
+	.mainbar p{
+		font-size: 15px;
+	}
+
+	.sidebar{
+		width: 96%;
+		margin: 0 2%;
+	}
+
+	.name img{
+		padding: 0 12%;
+	}
+
+ .sidebar h1{
+	 text-align: center;
+	 padding-left: 0;
+ }
+
+	.sidebar p{
+		font-size: 15px;
+	}
+
+ .name p{
+	 width: 100%;
+	 padding-left: 0;
+ }
+
+ .ranking img{
+	 width: 100%;
+	 padding-left: 0;
+ }
+
+ .ranking li{
+	 width: 100%;
+	 padding-left: 0;
+ }
+
+.archive{
+	margin-top: 30px;
+	margin-bottom: 150px
+}
+
+ .archive ul{
+	 margin-left: 2%;
+ }
+
+ footer{
+	 display: block;
+	 width: 100%;
+	 padding: 0 2%;
+ }
+
+ footer h1{
+	 padding-left: 0;
+ }
+
+	footer p{
+		font-size: 15px;
+	}
+
+ .about{
+	 width: 100%;
+	 padding-right: 0;
+ }
+
+ .menu{
+	 width: 100%;
+	 padding-right: 0;
+ }
+
+ .twitter{
+	 width: 100%;
+ }
+}
