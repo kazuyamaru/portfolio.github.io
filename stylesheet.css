@@ -171,7 +171,7 @@ h1::after{
 
 }
 
-.profile{
+#about .profile{
 	display: flex;
 	width: 70%;
 	margin: 0 15%;
@@ -179,12 +179,13 @@ h1::after{
 
 #about .about-photo{
 	width: 50%;
+	height: 100%;
 }
 
 #about .sentence{
 	width: 45%;
 	height: 50%;
-	margin-top: 5%;
+	margin-top: 0;
 	margin-left: 10%;
 	background-color: #F5F4F4;
 	border-radius: 15px;
@@ -197,6 +198,7 @@ h1::after{
 
 #about img{
 	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 }
 /*About*/
@@ -416,9 +418,10 @@ footer p{
 
 }
 @media screen and (max-width:570px){
-	h1{
-		margin-left: 3.5%;
+	#about{
+		width: 100%;
 	}
+
 }
 
 @media screen and (max-width:450px){
@@ -426,4 +429,3 @@ footer p{
 		margin-left: 1%;
 	}
 }
-
