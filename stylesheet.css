@@ -140,6 +140,7 @@ header{
 
 /*h1見出し*/
 h1{
+	color: #b0e0e6;
   font-family: 'Pacifico', cursive;
   font-size: 22px;
   position: relative;
