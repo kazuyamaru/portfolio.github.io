@@ -317,7 +317,6 @@ footer p{
 	}
 
 	.header{
-		background-color: #b0e0e6;
 		height: 70px;
 		width: 100%;
 		z-index: 999;
@@ -429,6 +428,10 @@ footer p{
 		width: 35%;
 	}
 	/*skills*/
+
+	.sns a{
+		margin: 0 30px;
+	}
 
 }
 @media screen and (max-width:570px){
