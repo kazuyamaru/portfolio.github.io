@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device, initial-scale=1.0%">
     <title>Kazuya-portfolio</title>
     <script src="https://kit.fontawesome.com/1c89a7267c.js" crossorigin="anonymous"></script>
@@ -12,91 +15,262 @@
   </head>
   <body>
     <script src="main.js"></script>
-    <header>
-    <div class="header">
-      <i class="fas fa-bars fa-lg fa-2x"></i>
-      <input type="checkbox"  class="drawer-btn" name="" value="">
-      <div class="gnav-list">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#works">Works</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+
+
+    <header class="js-header">
+      <div class="header-wrap">
+        <div class="logo-wrap">
+          <p class="logo"><a href="#top">Kazuya-portfolio</a></p>
+        </div>
+        <div class="header-list-wrap">
+          <ul class="header-list burger-menu">
+            <li class="header-item"><a href="#about">About</a></li>
+            <li class="header-item"><a href="#service">Service</a></li>
+            <li class="header-item"><a href="#works">works</a></li>
+            <li class="header-item"><a href="#contact">contact</a></li>
+          </ul>
+          <div class="burger"></div>
+        </div>
       </div>
-    </div>
     </header>
 
-    <div class="mainvisual">
-     <p>KAZUYA<br>PORTFOLIO</p>
-    </div>
+    <section id="top">
+      <div class="top-wrap">
+        <div class="main-text-wrap">
+          <p class="main-text">
+            さ<br>さ<br>い<br>な<br>こ<br>と<br>か<br>ら<br>D<br>X<br>へ
+          </p>
+        </div>
+        <div class="main-image-wrap">
+          <div class="main-image"><img src="main-image.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+    
 
     <section id="about">
-      <h1>About</h1>
-      <div class="profile">
-      <div class="about-photo">
-        <img src="sakura.jpg" alt="my photo">
-      </div>
-      <div class="sentence">
-        <p>初めまして！　かずやと申します。
-          <br>web制作を行っているフリーランスとして承っております。
-          <br>低価格、スピード重視で制作を行い、円滑にサービス提供できるようにしております。
-          <br>日々スキルの向上に努め、クライアント様に柔軟な対応できるよう励んでいきます！！</p>
-      </div>
-    </div>
+      <div class="about-wrap">
+        <div class="about-left-wrap">
+          <div class="about-image-wrap">
+            <div class="about-image-box"><img src="about-image1.jpg" alt="" class="about-image1"></div>
+            <div class="about-image-box"><img src="about-image2.jpg" alt="" class="about-image2"></div>
+            <div class="about-image-box"><img src="about-image3.jpg" alt="" class="about-image3"></div>
+          </div>
+        </div>
+        <div class="about-right-wrap">
+          <div class="section-ttl-wrap">
+            <h1 class="section-ttl about-section-ttl-wrap">
+              ABOUT
+            </h1>
+          </div>
+          <div class="about-text-wrap">
+            <p class="about-text">
+              初めまして。
+              <br>かずやと申します。
+              <br>
+              はじめまして、Web制作フリーランスをしております。
+              <br>ShopifyやWordPressを中心に、デザインだけでなく「売上につながる仕組みづくり」を意識したサイト制作を行っています。
+              <br>丁寧なヒアリングで、あなたのビジネスに最適なWeb戦略を提案します。
+              <div class="buttn-about-position">
+                <a href="https://note.com/n_kazu0412/n/n019e87195627" class="buttn-wrap works-top-buttn">
+                  詳細へ
+
+                </a>
+              </div>
+            </p>
+          </div>
+        </div>
+     </div>
     </section>
 
-    <section id="skills">
-      <h1>Skills</h1>
-      <div class="skill">
-        <ul>
-          <li>
-            <p class="img"><img src="HP.png" alt="HP"></p>
-            <p class="sentence1">HTML&CSSによるWEB制作が可能です。</p>
-          </li>
-          <li>
-            <p class="img"><img src="device.png"></p>
-            <p class="sentence2">レスポンシブ対応が可能です。</p>
-          </li>
-        </ul>
+    <section id="service">
+      <div class="service-wrap">
+        <div class="section-ttl-wrap">
+            <h1 class="section-ttl service-section-ttl-wrap">
+              SERVICE
+            </h1>
+          </div>
+          <div class="service-box-wrap">
+            <a href="" class="service-box-link">
+              <div class="service-ttl-wrap">
+                <div class="service-img">
+                  <img src="WordPressLogo.png" alt="">
+                </div>
+                <h2 class="service-ttl">
+                  Web制作
+                </h2>
+              </div>
+              <p class="service-text">
+                <span class="font-bold">誰でも更新できる、伝わるWebサイトを。</span>
+                <br>
+私たちは、WordPressを活用したWebサイト制作を通じて、ブランド価値を高めるお手伝いをしています。
+
+デザイン性と操作性の両立、SEOやモバイル対応はもちろん、納品後もお客様ご自身で更新・運用しやすい構成を心がけています。
+
+「見た目」だけでなく、「成果につながるサイト」を、WordPressで実現します。
+              </p>
+
+            </a>
+            <a href="" class="service-box-link">
+              <div class="service-ttl-wrap  service-ttl-position">
+                <div class="service-img shopify-img">
+                  <img src="Shopifylogo.png" alt="">
+                </div>
+                <h2 class="service-ttl">
+                  Shopify制作
+                </h2>
+              </div>
+              <p class="service-text">
+                <span class="font-bold">売れるECサイトを、最短で。</span>
+                <br>
+私たちは、Shopifyを活用したECサイト制作・構築を通じて、ビジネスのオンライン展開をサポートしています。
+
+ブランディングに沿ったデザイン設計から、ユーザーにとって使いやすい導線設計、運用・分析の支援までワンストップで対応。
+
+スモールスタートからスケーラブルな運用まで、成長フェーズに合わせたEC構築を提供いたします。
+              </p>
+            </a>
+            <a href="" class="service-box-link">
+              <div class="service-ttl-wrap  service-ttl-position">
+                <div class="service-img notion-img">
+                  <img src="Notionlogo.png" alt="">
+                </div>
+                <h2 class="service-ttl">
+                  Notion開発
+                </h2>
+              </div>
+              <p class="service-text">
+                <span class="font-bold">「Notionで、DXをもっとシンプルに。」</span>
+                <br>
+私たちは、Notionを使った業務のデジタル化・効率化を支援するチームです。マニュアル、タスク管理、ナレッジ共有、全てをひとつにまとめて、日々の業務に余白とスピードを。難しいITツールは使わず、現場にフィットする“ちょうどいいDX”を一緒に作っていきます。
+              </p>
+            </a>
+          </div>
       </div>
     </section>
 
 
 <section id="works">
-  <h1>Works</h1>
-  <p>練習のために作成した製作物です。</p>
-  <div class="works-photo">
-    <ul>
-      <li>
-        <p><a href="final answer/index.html"><img src="final answer.png" alt="final answer"></a></p>
-      </li>
-      <li>
-        <p><a href="camera/camera.html"><img src="camera-head.png" alt="camera"></a></p>
-      </li>
-      <li>
-        <p><a href="first/first.html"><img src="first-head.png" alt="first"></a></p>
-      </li>
-      <li>
-        <p><a href="Travel Blog/blog.html"><img src="blog-head.png" alt="blog"></a></p>
-      </li>
-      <li>
-        <p><a href="snappers/index.html"><img src="snappers.png" alt="snappers"></a></p>
-      </li>
-    </ul>
+  <div class="works-wrap">
+    <div class="section-ttl-wrap">
+        <h1 class="section-ttl works-section-ttl-wrap">
+            WORKS
+        </h1>
+      </div>
+      <div class="works-box-wrap">
+        <a href="" class="works-img-box">
+          <img src="final answer.png" alt="">
+        </a>
+        <div class="works-text-box">
+          <p class="works-text">
+            <span class="font-bold">HTML,CSS/javascript</span>
+                <br>webサイト制作、アプリ開発をしている企業様のコーポレートサイトを制作しました。
+                <br>Vue.jsを活用したモジュール設計により、ページの更新作業を効率化。また、ユーザー導線を重視したUI設計を施し、お問い合わせ・申し込み数の増加に貢献。
+                <br>お客様の「夢を叶える」というメッセージをWeb上で具現化しました。
+              </p>
+              <div class="buttn-works-position">
+                <a href="./final answer/index.html" class="buttn-wrap works-top-buttn">
+                  詳細へ
+                </a>
+              </div>
+        </div>
+      </div>
+      <div class="works-box-wrap">
+        <div class="works-text-box grid-row2">
+          <p class="works-text">
+            <span class="font-bold">HTML,CSS/javascript</span>
+                <br>架空の風景写真家「SNAPPERS」のポートフォリオサイトを制作しました。
+                <br>モノクロームのシンプルなデザインで、余白を活かしつつ視覚的なバランスを重視しています。HTMLとCSSの基礎を学ぶ過程で、構造設計やスタイリングの重要性を実践的に理解しました。
+                brこの作品は、デザインとコーディングのスキルを向上させるための学習成果として位置づけています。
+              </p>
+              <div class="buttn-works-position">
+                <a href="./snappers/index.html" class="buttn-wrap works-top-buttn">
+                  詳細へ
+                </a>
+              </div>
+        </div>
+        <a href="./snappers/index.html" class="works-img-box grid-row1">
+          <img src="snappers.png" alt="">
+        </a>
+      </div>
+
+      <div class="works-box-wrap">
+        <a href="" class="works-img-box">
+          <img src="archivemv.png" alt="">
+        </a>
+        <div class="works-text-box">
+          <p class="works-text">
+            <span class="font-bold">Shopify/liquid/HTML,CSS/javascript</span>
+                
+                <br>辻直人選手の公式オンラインサロン「la vie」の構築を担当しました。
+                <br>Shopifyを活用し、会員制コンテンツの提供や商品販売、寄付機能など多彩な機能を統合。直感的なUI設計とレスポンシブ対応により、どのデバイスからも快適に利用できる環境を実現しました。
+                <br>スポーツ選手のブランディングとファンとの繋がりを強化するための、機能性とデザイン性を兼ね備えたサイトです。
+              </p>
+              <div class="buttn-works-position">
+                <a href="https://la-vie.dandn-three.co.jp/" class="buttn-wrap works-top-buttn">
+                  詳細へ
+                </a>
+              </div>
+        </div>
+      </div>
   </div>
 </section>
 
 <section id="contact">
-  <h1>Contact</h1>
-  <p>迅速な対応を心がけます。いつでもご連絡待ってます。</p>
-  <div class="sns">
-    <a href="https://x.com/4XvX6SIxYX89737"><i class="fab fa-twitter-square fa-5x"></i></a>
-    <a href="https://www.instagram.com/kazuya990/"><i class="fab fa-instagram fa-5x"></i></a>
+  <div class="contact-wrap">
+    <div class="section-ttl-wrap">
+        <h1 class="section-ttl contact-section-ttl-wrap">
+            CONTACT
+        </h1>
+      </div>
+      <div class="contact-content-wrap">
+        <div class="contact-item-right">
+          <p class="contact-text">
+            お問い合わせフォーム、SNS、
+            <br>メールアドレスよりお待ちしております。
+            <br>
+            <br>
+            メールアドレス
+            <br>
+            <span class="font-bold">
+              <a href="mailto:k.nakashima.nts@gmail.com">k.nakashima.nts@gmail.com</a>
+            </span>
+          </p>
+        </div>
+        <div class="contact-item-left">
+          <div class="contact-button-wrap">
+            <a href="https://tally.so/embed/nGArNo?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" class="contact-button font-bold">
+              お問い合わせフォームへ
+            </a>
+          </div>
+          <div class="sns-content-wrap">
+            <ul class="sns-icon-wrap">
+              <li class="sns-box">
+                <a href="" class="sns-link">
+                  <img src="X_icon.png" alt="" class="X-img">
+                </a>
+              </li>
+              <li class="sns-box">
+                <a href="" class="sns-link">
+                  <img src="iconInsta.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
   </div>
 </section>
+
+
     <footer>
-      <p>Copyright © 2023 Kazuya's Portfolio All Rights Reserved.</p>
+      <p>Copyright © 2025 Kazuya's Portfolio All Rights Reserved.</p>
     </footer>
+     <script>
+        $('.burger').click(function(){
+            $(".burger").toggleClass('is-active');
+            $(".burger-menu").toggleClass('is-active');
+        });
+    </script>
   </body>
 </html>
