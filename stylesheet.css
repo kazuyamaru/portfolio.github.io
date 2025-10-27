@@ -624,6 +624,10 @@ footer p{
 	letter-spacing: 0.5rem;
 }
 
+	.buttn-about-position{
+	margin-top: 70px;
+}
+
 /*service*/
 .service-box-wrap{
 	display: block;
@@ -750,3 +754,4 @@ footer{
 .about-image-box:nth-child(1).show { transition-delay: 0.1s; }
 .about-image-box:nth-child(2).show { transition-delay: 0.5s; }
 .about-image-box:nth-child(3).show { transition-delay: 1.0s; }
+
