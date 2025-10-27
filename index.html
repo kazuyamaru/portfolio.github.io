@@ -267,10 +267,16 @@
       <p>Copyright © 2025 Kazuya's Portfolio All Rights Reserved.</p>
     </footer>
      <script>
-        $('.burger').click(function(){
-            $(".burger").toggleClass('is-active');
-            $(".burger-menu").toggleClass('is-active');
-        });
-    </script>
+  $('.burger').click(function(){
+    $(".burger").toggleClass('is-active');
+    $(".burger-menu").toggleClass('is-active');
+  });
+
+  // 追加部分：リンクをクリックしたら閉じる
+  $('.burger-menu a').click(function(){
+    $(".burger").removeClass('is-active');
+    $(".burger-menu").removeClass('is-active');
+  });
+</script>
   </body>
 </html>
