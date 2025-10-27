@@ -289,16 +289,17 @@ header{
 }
 
 .shopify-img img{
-	width: 80px;
+	width: 70px;
 	filter: grayscale(100%);
 }
 
 .notion-img img{
-	width: 100px;
+	width: 80px;
 }
 
 .service-ttl{
 	font-size: 35px;
+	margin-left: 15px;
 	font-family: Marcellus;
 }
 
@@ -624,7 +625,7 @@ footer p{
 	letter-spacing: 0.5rem;
 }
 
-	.buttn-about-position{
+.buttn-about-position{
 	margin-top: 70px;
 }
 
@@ -639,8 +640,12 @@ footer p{
 	margin-top: 20px;
 }
 
+.service-ttl-wrap{
+	width: 290px;
+	margin: auto;
+}
+
 .service-ttl-position{
-	margin-left: 6%;
 	margin-top: 30px;
 }
 
@@ -754,4 +759,3 @@ footer{
 .about-image-box:nth-child(1).show { transition-delay: 0.1s; }
 .about-image-box:nth-child(2).show { transition-delay: 0.5s; }
 .about-image-box:nth-child(3).show { transition-delay: 1.0s; }
-
